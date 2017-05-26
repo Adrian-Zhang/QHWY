@@ -135,5 +135,13 @@
 .qingchu {font: 0px/0px sans-serif; clear: both; display: block}
 
 /* 产品列表页 */
-.chanping_neirong {width: 960px;  margin: 0 auto; }
-.chanping_neirong ul li {float: left; display: inline; padding: 0; border: 0; width: 310px; height: 180px; margin-left: 15px; }
+.chanping_neirong {width: 960px; margin: 0 auto; }
+.chanping_neirong span {float: left; width: 15px; height: 266px; }
+.chanping_neirong ul {width: 960px; height: auto;}
+.chanping_neirong ul li {float: left; padding: 0; border: 0; width: 310px; height: 266px; margin: 0 auto 20; }
+.chanping_neirong ul a {width: 310px; height: 266px; }
+.chanping_neirong img {width: 310px; height: 266px; }
+.chanping_neirong  p {margin: 0 0; z-index:10; position:relative; top: -60px; bottom:0px; width:310px; height:60px; line-height:60px; text-align:center; font-family:"微软雅黑"; font-size:20px; color:#fff; text-shadow: 1px 1px 10px #b2b3b5; background-color:rgba(0,0,0,0.6)}
+.chanping_neirong a :hover p{ margin: 0 0; z-index:10; position:relative; top: -266px; bottom:0px; width:310px; height:266px; line-height: 80px; text-align:center; font-family:"微软雅黑"; font-size:22px;  color:#fff; background-color:rgba(0,0,0,0.6); box-shadow: 0px 0px 19.4px 0.6px rgba(0, 0, 0, 0.45); }
+.chanping_neirong ul li span {display: none;}
+.chanping_neirong ul li:hover span {display: block; margin: 0 20px; z-index:20; position:relative; top: -460px; bottom:0px; width:270px; height:60px; line-height:22px; font-size:14px; color:#fff; }
